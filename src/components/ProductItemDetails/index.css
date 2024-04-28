@@ -1,0 +1,129 @@
+/* Write your CSS here */
+.product-item-details-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.products-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.product-image {
+  height: 65vh;
+  width: 50vw;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.price {
+  color: #12022f;
+  font-family: 'Roboto';
+}
+.ratings-reviews-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.rating-container {
+  background-color: #3b82f6;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+  width: 5vw;
+}
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.rating-image {
+  height: 2vh;
+}
+.total-reviews {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.description {
+  color: #475569;
+  font-family: 'Roboto';
+}
+.value-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.label {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-right: 10px;
+}
+.value {
+  color: #475569;
+  font-family: 'Roboto';
+}
+.line {
+  border-color: #475569;
+  border-width: 1px;
+  border-style: solid;
+  width: 60vw;
+}
+.quantity-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.quantity-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.add-to-cart-button {
+  color: #ffffff;
+  background-color: #3b82f6;
+  font-family: 'Roboto';
+  padding: 10px;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 0px;
+}
+.similar-products {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 600;
+}
+.similar-products-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: coumn;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .product-details-container {
+    flex-direction: column;
+  }
+  .similar-products-list-container {
+    flex-direction: column;
+  }
+}
